@@ -1,0 +1,33 @@
+.enteteul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.enteteli {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.enteteli:last-child {
+    border-right: none;
+}
+
+.enteteli .entetea {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.enteteli .entetea:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
